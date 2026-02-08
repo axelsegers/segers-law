@@ -487,20 +487,11 @@ p {
     position: relative;
 }
 
-.image-placeholder {
+.about-image img {
+    width: 100%;
     aspect-ratio: 4/3;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+    object-fit: cover;
     border-radius: var(--radius-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-placeholder svg {
-    width: 120px;
-    height: 120px;
-    color: var(--color-accent);
-    opacity: 0.5;
 }
 
 /* ===================================
